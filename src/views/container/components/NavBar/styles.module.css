@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.NavBar{
+    background-color: var(--black0);
+    display: flex;
+    justify-content: space-between;
+    border: 0.5rem solid #fda95b;
+}
+.navLogo{
+    width: 9rem;
+}
+.navSymbols{
+    display: flex;
+    align-items: center;
+    padding-right: 1.5rem;
+}
+
+.navCart{
+    width: 3.9rem;
+    padding: 0.1rem 0.4rem;
+    border-left: 0.2rem solid white;
+}
+
+.navList{
+    display: none;
+}
+ label{
+     font-size: 2rem;
+     color: var(--white);
+     padding-right: 0.7rem;
+ }

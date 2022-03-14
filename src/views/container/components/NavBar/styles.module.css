@@ -22,11 +22,13 @@
     border-left: 0.2rem solid white;
 }
 
-.navList{
-    display: none;
-}
+
  label{
      font-size: 2rem;
      color: var(--white);
      padding-right: 0.7rem;
  }
+ 
+.navList{
+    display: none;
+}

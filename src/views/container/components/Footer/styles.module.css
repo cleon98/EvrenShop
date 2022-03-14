@@ -1,0 +1,45 @@
+footer {
+  background-color: var(--black0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.title,
+.contact,
+.social {
+  color: var(--orange1);
+  padding: 1rem 0;
+  font-size: 1rem;
+}
+.mark,
+.number {
+  padding-bottom: 0.3rem;
+  color: var(--white);
+  font-size: 0.8rem;
+}
+.socialmedia {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.socialLogo1,
+.socialLogo2{
+    width: 2.5rem;
+}
+
+.owner {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--white);
+  font-size: 0.85rem;
+}
+
+.owner a {
+  text-decoration: none;
+  color: var(--white);
+}
+.lastName {
+  color: var(--red0);
+}

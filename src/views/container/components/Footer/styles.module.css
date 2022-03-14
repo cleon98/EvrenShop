@@ -4,36 +4,37 @@ footer {
   flex-direction: column;
   align-items: center;
   height: auto;
+  border-top: 0.25rem solid var(--orange0);
 }
 
 .title,
 .contact,
 .social {
   color: var(--orange1);
-  padding: 1rem 0;
-  font-size: 1rem;
+  padding: 0.7rem 0;
+  font-size: 0.7rem;
 }
 .mark,
 .number {
   padding-bottom: 0.3rem;
   color: var(--white);
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 .socialmedia {
   display: flex;
-  gap: 2.5rem;
+  gap: 3rem;
 }
 
 .socialLogo1,
 .socialLogo2{
-    width: 2.5rem;
+    width: 1.8rem;
 }
 
 .owner {
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: var(--white);
-  font-size: 0.85rem;
+  font-size: 0.75rem;
 }
 
 .owner a {

@@ -1,108 +1,144 @@
-section{
-    position: relative;
+section {
+  position: relative;
+  background-color: var(--black0);
 }
 
-.homeBanter{
-    width: 100%;
-    height: 100%;
+.homeBanter {
+  width: 100%;
+  height: 100%;
 }
 
 .homeButton1,
-.homeButton2{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #000000d0;
-    opacity: 90%;
-    color: var(--white);
-    padding: 0.4rem 0.2rem;
-    border: 0.25rem solid var(--white);
-    cursor: pointer;
-    border-radius: 0.75rem;
-    width: 4.5rem;
-    font-size: 0.5rem;
+.homeButton2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #000000d0;
+  opacity: 90%;
+  color: var(--white);
+  padding: 0.4rem 0.2rem;
+  border: 0.25rem solid var(--white);
+  cursor: pointer;
+  border-radius: 0.75rem;
+  width: 4.2rem;
+  font-size: 0.4rem;
 }
 
-.homeButton1{
-    top:66%;
-    left: 50%;
+.homeButton1 {
+  top: 63%;
+  left: 50%;
 }
 
-.homeButton2{
-    top: 85%;
-    left: 50%;
+.homeButton2 {
+  top: 84%;
+  left: 50%;
+}
+
+.homeText {
+  background-color: var(--black0);
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  color: var(--white);
+  text-align: center;
+  text-indent: 0.5rem;
+  gap: 0.5rem;
+}
+
+.homeText h3 {
+  color: var(--orange1);
+}
+
+.homePara1,
+.homePara2 {
+  border: 0.3rem solid var(--orange0);
+  padding: 1rem;
+}
+.homePara1 h3, p,
+.homePara2 h3, p{
+  font-size: 0.5rem !important;
 }
 
 @media only screen and (min-width: 469px) {
-
-    .homeButton1{
-        top: 67%;
-        width: 5.5rem;
-        font-size: 0.8rem;
-    }
-    .homeButton2{
-        top: 86%;
-        width: 5.5rem;
-        font-size: 0.8rem;
-    }
-
+  .homeButton1 {
+    top: 67%;
+    width: 5.5rem;
+    font-size: 0.8rem;
+  }
+  .homeButton2 {
+    top: 86%;
+    width: 5.5rem;
+    font-size: 0.8rem;
+  }
+  .homePara1 h3, p,
+  .homePara2 h3, p {
+    font-size: 0.8rem !important;
+  }
 }
 
 @media only screen and (min-width: 599px) {
-
-    .homeButton1{
-        top: 74%;
-        width: 6rem;
-        font-size: 1rem;
-    }
-    .homeButton2{
-        top: 88%;
-        width: 6rem;
-        font-size: 1rem;
-    }
-
+  .homeButton1 {
+    top: 74%;
+    width: 6rem;
+    font-size: 1rem;
+  }
+  .homeButton2 {
+    top: 88%;
+    width: 6rem;
+    font-size: 1rem;
+  }
+  .homePara1 h3, p,
+  .homePara2 h3, p {
+    font-size: 1.1rem !important;
+  }
 }
 
 @media only screen and (min-width: 750px) {
-
-    .homeButton1{
-        top: 72%;
-        width: 8rem;
-        font-size: 1.3rem;
-    }
-    .homeButton2{
-        top: 87%;
-        width: 8rem;
-        font-size: 1.3rem;
-    }
-
+  .homeButton1 {
+    top: 72%;
+    width: 8rem;
+    font-size: 1.3rem;
+  }
+  .homeButton2 {
+    top: 87%;
+    width: 8rem;
+    font-size: 1.3rem;
+  }
+}
+.homePara1 h3, p,
+.homePara2 h3, p {
+  font-size: 1.2rem !important;
 }
 
 @media only screen and (min-width: 949px) {
-
-    .homeButton1{
-        top: 75%;
-        width: 8rem;
-        font-size: 1.3rem;
-    }
-    .homeButton2{
-        top: 87%;
-        width: 8rem;
-        font-size: 1.3rem;
-    }
-
+  .homeButton1 {
+    top: 75%;
+    width: 8rem;
+    font-size: 1.3rem;
+  }
+  .homeButton2 {
+    top: 87%;
+    width: 8rem;
+    font-size: 1.3rem;
+  }
+  .homePara1 h3, p,
+  .homePara2 h3, p {
+    font-size: 1.3rem !important;
+  }
 }
 @media only screen and (min-width: 1020px) {
-
-    .homeButton1{
-        top: 79%;
-        width: 8rem;
-        font-size: 1.3rem;
-    }
-    .homeButton2{
-        top: 90%;
-        width: 8rem;
-        font-size: 1.3rem;
-    }
-
+  .homeButton1 {
+    top: 79%;
+    width: 8rem;
+    font-size: 1.3rem;
+  }
+  .homeButton2 {
+    top: 90%;
+    width: 8rem;
+    font-size: 1.3rem;
+  }
+  .homePara1,
+  .homePara2 {
+    font-size: 1.5rem !important;
+  }
 }

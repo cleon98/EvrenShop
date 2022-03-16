@@ -11,10 +11,10 @@ export const Home = () => {
           src="https://i.imgur.com/WGL527d.jpg"
           alt="Evren Banner"
         />
-        <Link to="#">
+        <Link to="/catalogo/hombre">
           <button className={styles.homeButton1}>Hombre</button>
         </Link>
-        <Link to="#">
+        <Link to="catalogo/mujer">
           <button className={styles.homeButton2}>Mujer</button>
         </Link>
       </section>

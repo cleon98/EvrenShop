@@ -49,15 +49,6 @@ section {
   color: var(--orange1);
 }
 
-.homePara1,
-.homePara2 {
-  border: 0.3rem solid var(--orange0);
-  padding: 1rem;
-}
-.homePara1 h3, p,
-.homePara2 h3, p{
-  font-size: 0.5rem !important;
-}
 
 @media only screen and (min-width: 469px) {
   .homeButton1 {

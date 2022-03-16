@@ -34,20 +34,11 @@ section {
   left: 50%;
 }
 
-.homeText {
-  background-color: var(--black0);
-  display: flex;
-  flex-direction: row;
-  padding: 1rem;
-  color: var(--white);
-  text-align: center;
-  text-indent: 0.5rem;
-  gap: 0.5rem;
+.homeBanner{
+  width: 100%;
+  height: auto;
 }
 
-.homeText h3 {
-  color: var(--orange1);
-}
 
 
 @media only screen and (min-width: 469px) {
@@ -61,16 +52,9 @@ section {
     width: 5.5rem;
     font-size: 0.8rem;
   }
-  .homePara1 h3, p,
-  .homePara2 h3, p {
-    font-size: 0.8rem !important;
-  }
 }
 
-.homeBanner{
-  width: 100%;
-  height: auto;
-}
+
 
 @media only screen and (min-width: 599px) {
   .homeButton1 {
@@ -83,10 +67,7 @@ section {
     width: 6rem;
     font-size: 1rem;
   }
-  .homePara1 h3, p,
-  .homePara2 h3, p {
-    font-size: 1.1rem !important;
-  }
+
 }
 
 @media only screen and (min-width: 750px) {
@@ -101,10 +82,7 @@ section {
     font-size: 1.3rem;
   }
 }
-.homePara1 h3, p,
-.homePara2 h3, p {
-  font-size: 1.2rem !important;
-}
+
 
 @media only screen and (min-width: 949px) {
   .homeButton1 {
@@ -117,24 +95,18 @@ section {
     width: 8rem;
     font-size: 1.3rem;
   }
-  .homePara1 h3, p,
-  .homePara2 h3, p {
-    font-size: 1.3rem !important;
-  }
+ 
 }
 @media only screen and (min-width: 1020px) {
   .homeButton1 {
     top: 79%;
     width: 8.5rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .homeButton2 {
     top: 90%;
     width: 8.5rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
-  .homePara1,
-  .homePara2 {
-    font-size: 1.5rem !important;
-  }
+
 }

@@ -14,11 +14,12 @@ footer {
   padding: 0.7rem 0;
   font-size: 0.9rem;
 }
+
 .mark,
 .number {
   padding-bottom: 0.3rem;
-  color: var(--white);
-  font-size: 0.3rem;
+  font-size: 0.7rem;
+  color: var(--white);  
 }
 .socialmedia {
   display: flex;

@@ -76,6 +76,11 @@ section {
   }
 }
 
+.homeBanner{
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (min-width: 599px) {
   .homeButton1 {
     top: 74%;
@@ -129,13 +134,13 @@ section {
 @media only screen and (min-width: 1020px) {
   .homeButton1 {
     top: 79%;
-    width: 8rem;
-    font-size: 1.3rem;
+    width: 8.5rem;
+    font-size: 1.7rem;
   }
   .homeButton2 {
     top: 90%;
-    width: 8rem;
-    font-size: 1.3rem;
+    width: 8.5rem;
+    font-size: 1.7rem;
   }
   .homePara1,
   .homePara2 {

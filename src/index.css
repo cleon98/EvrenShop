@@ -2,9 +2,11 @@
 
 :root{
   --white: #fff;
+  --white1: #f8f9fa;
   --black0: #212529;
   --orange0: #fda95b;
   --orange1: #ffa500;
+  --orange2: #EB7D46;
   --red0: #ff0000;
 }
 *{

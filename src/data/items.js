@@ -6,16 +6,16 @@ export const products = [
   description: "Crop top 100% algodón de alta calidad, estampados de alta densidad",
   price: 20000,
   gender: "Mujer",
-  img: "https://i.imgur.com/JdQJ2W7.jpg"
+  img: "https://i.imgur.com/aDh3eSl.jpg"
   },
   {
     id: 2,
     category:"Camiseta",
-    name:"Evren high",
+    name:"Evren on the road",
     description:"Camiseta 100% algodón de alta calidad, estampados de alta densidad",
     price: 20000,
     gender:"Hombre",
-    img:"https://i.imgur.com/15yRBNj.jpg"
+    img:"https://i.imgur.com/oP6puj6.jpg"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const products = [
     description: "Camiseta 100% algodón de alta calidad, estampados de alta densidad",
     price: 20000,
     gender: "Hombre",
-    img: "https://i.imgur.com/rsgJCak.jpg"
+    img: "https://i.imgur.com/FnAmYi5.jpg"
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const products = [
     description: "Camiseta 100% algodón de alta calidad, estampados de alta densidad",
     price: 20000,
     gender: "Hombre",
-    img: "https://i.imgur.com/R9cnYuI.jpg"
+    img: "https://i.imgur.com/18p8QNV.jpg"
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const products = [
     description: "Crop top 100% algodón de alta calidad, estampados de alta densidad",
     price: 20000,
     gender: "Mujer",
-    img: "https://i.imgur.com/no968N7.jpg"
+    img: "https://i.imgur.com/npDGRNK.jpg"
   },
   {
     id: 6,
@@ -51,6 +51,6 @@ export const products = [
     description: "Camiseta 100% algodón de alta calidad, estampados de alta densidad",
     price: 20000,
     gender: "Hombre",
-    img: "https://i.imgur.com/9HZIJYA.jpg"
+    img: "https://i.imgur.com/4mXdIXC.jpg"
   }
 ]

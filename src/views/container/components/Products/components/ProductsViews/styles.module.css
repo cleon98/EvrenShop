@@ -1,0 +1,79 @@
+.viewProduct{
+    display: flex;
+    background-color: var(--white1);
+    flex-direction: column;
+}
+
+.viewImage{
+    width: 100%;
+}
+
+.viewTextBox{
+    padding: 1rem;
+}
+
+.viewText{
+    font-size: 1rem;
+    padding: 0.4rem;
+}
+.viewTextCategory{
+    color: var(--red0);
+    padding: 0.5rem 0rem 0 0.5rem;
+    font-size: 2rem;
+}
+.viewTextName{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0 0 1rem 0.5rem;
+}
+
+.viewTextPriceTitle{
+    font-size: 1.4rem;
+}
+
+.viewTextPrice{
+    font-size: 1.7rem;
+    padding: 0.5rem;
+}
+
+.viewTextDescriptionTitle{
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.viewTextDescription{
+    padding: 0.5rem;
+}
+
+.viewButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1rem;
+    padding-bottom: 1.5rem;
+}
+.viewAddCart,
+.viewBack{
+    background-color: var(--black0);
+    color: var(--white);
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    width: 12rem;
+    cursor: pointer;
+}
+.viewAddCart:hover,
+.viewBack:hover{
+    background-color: var(--orange2);
+    color: var(--black0);
+    transition: 0.4s;
+}
+
+@media only screen and (min-width: 649px) {
+    .viewProduct{
+        flex-direction: row;
+    }
+    .viewImage{
+        width: 50%;
+        padding: 2rem;
+    }
+}

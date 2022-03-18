@@ -99,14 +99,14 @@ section {
 }
 @media only screen and (min-width: 1020px) {
   .homeButton1 {
-    top: 79%;
+    top: 81%;
     width: 8.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .homeButton2 {
     top: 90%;
     width: 8.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
 }

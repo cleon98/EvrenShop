@@ -5,6 +5,7 @@ import { Home } from './components/Home/Home'
 import NavBar from './components/NavBar/NavBar'
 import JustMen from './components/Products/components/JustMen/JustMen'
 import JustWomen from './components/Products/components/JustWomen/JustWomen'
+import ProductsView from './components/Products/components/ProductsViews/ProductsView'
 import Products from './components/Products/Products'
 
 const Container = () => {
@@ -17,6 +18,7 @@ const Container = () => {
         <Route path='/catalogo' element={<Products/>}/>
         <Route path='/catalogo/hombre' element={<JustMen/>}/>
         <Route path='/catalogo/mujer' element={<JustWomen/>}/>
+        <Route path='/catalogo/:id' element={<ProductsView/>}/>
         </Routes>
         <Footer/>
         </BrowserRouter>

@@ -16,7 +16,8 @@ const Products = () => {
             description={item.description}
             price={item.price}
             gender={item.gender}
-            img={item.img} />
+            img={item.img}
+            key={index} />
         ))}
         
       </section>

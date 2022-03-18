@@ -10,7 +10,7 @@ const EachProduct = (props) => {
             <img src={img} alt="products listed in the website"/>
             <h2>{category}</h2>
             <p>{name}</p>
-            <h3>{price}</h3>
+            <h3>$ {price}</h3>
         </section>
     </Link>
   )

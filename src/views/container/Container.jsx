@@ -1,6 +1,7 @@
 import React from 'react'
 import {BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer/Footer'
+import GoTop from './components/GoTop/GoTop'
 import { Home } from './components/Home/Home'
 import NavBar from './components/NavBar/NavBar'
 import JustMen from './components/Products/components/JustMen/JustMen'
@@ -20,6 +21,7 @@ const Container = () => {
         <Route path='/catalogo/mujer' element={<JustWomen/>}/>
         <Route path='/catalogo/:id' element={<ProductsView/>}/>
         </Routes>
+        <GoTop/>
         <Footer/>
         </BrowserRouter>
     </main>

@@ -1,6 +1,6 @@
 .viewProduct{
     display: flex;
-    background-color: var(--white1);
+    background-color: var(--white0);
     flex-direction: column;
 }
 
@@ -75,5 +75,8 @@
     .viewImage{
         width: 50%;
         padding: 2rem;
+    }
+    .viewTextBox{
+        padding: 3rem;
     }
 }

@@ -20,7 +20,7 @@ const ProductsView = ({products, addToCart}) => {
         </div>
         </section>
         <div className={styles.viewButtons} >
-            <button className={styles.viewAddCart} onClick={() => addToCart(products)} >Añadelo al carrito</button>
+            <button className={styles.viewAddCart} onClick={() => addToCart(product)} >Añadelo al carrito</button>
             <Link to='/catalogo'><button className={styles.viewBack} >Sigue comprando</button></Link>
         </div>
     </div>

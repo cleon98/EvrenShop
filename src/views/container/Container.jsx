@@ -15,17 +15,12 @@ const Container = () => {
   const {products} = items;
   const [cartItem, setCartItem] = useState([]);
   
-  const addToCart = (product) =>{
-    const cart = cartItem.find((item) => item.id === product.id);
-    if(cart){
-      setCartItem(
-        cartItem.map((item) =>
-        item.id === product.id ? {...cart, qty: cart.qty + 1} : item)
-      )
-    }else{
-    setCartItem([...cartItem, {...product, qty: 1}])
-   } 
-}
+  const addToCart = (products) =>{
+    const item = {category: products.category, name: products.name, 
+    price: products.price, key: products.id, img:products.img} 
+    setCartItem(current => [...current, {...item}]);
+    console.log(item)
+    }
 
   return (
     <main>

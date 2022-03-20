@@ -12,7 +12,7 @@ const NavBar = () => {
         <Link to='/catalogo' className={styles.navList} >Catálogo</Link>
         <Link to='/catalogo/hombre' className={styles.navList} >Hombre</Link>
         <Link to='/catalogo/mujer' className={styles.navList} >Mujer</Link>
-        <Link to='#'> <img src="https://i.imgur.com/XlOLBHJ.png" alt="Shopping cart icon" className={styles.navCart}/> </Link>
+        <Link to='/cart'> <img src="https://i.imgur.com/XlOLBHJ.png" alt="Shopping cart icon" className={styles.navCart}/> </Link>
         </div>
     </nav>
 

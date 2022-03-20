@@ -1,4 +1,5 @@
-export const products = [
+const catalog = {
+  products: [
   {
   id: 1,
   category: "Crop top",
@@ -54,3 +55,5 @@ export const products = [
     img: "https://i.imgur.com/4mXdIXC.jpg"
   }
 ]
+}
+export default catalog

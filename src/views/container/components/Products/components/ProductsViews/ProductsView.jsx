@@ -1,9 +1,9 @@
-import { products } from "../../../../../../data/items";
+
 import React from 'react'
 import { Link, useParams } from "react-router-dom";
 import styles from './styles.module.css'
 
-const ProductsView = () => {
+const ProductsView = ({products, addToCart}) => {
 
     const {id} = useParams();
     const product = products.find(product => product.id ==  id);
@@ -20,7 +20,7 @@ const ProductsView = () => {
         </div>
         </section>
         <div className={styles.viewButtons} >
-            <button className={styles.viewAddCart}>Añadelo al carrito</button>
+            <button className={styles.viewAddCart} onClick={() => addToCart(products)} >Añadelo al carrito</button>
             <Link to='/catalogo'><button className={styles.viewBack} >Sigue comprando</button></Link>
         </div>
     </div>

@@ -1,15 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import EachProduct from "./components/Product/EachProduct";
-import  { products } from "../../../../data/items"
 import styles from './styles.module.css'
 
-const Products = () => {
-    const [prodsData, setProdsData] = useState(products);
+const Products = ({products}) => {
   return (
     <div>
       <h1 className={styles.productsTitle}>Catálogo</h1>
       <section className={styles.productsList}>
-        {prodsData.map((item, index) => (
+        {products.map((item, index) => (
             <EachProduct id={item.id}
             category={item.category}
             name={item.name}

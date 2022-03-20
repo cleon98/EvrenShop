@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from './styles.module.css'
 
-const EachProduct = (props) => {
-    const {id, category, name, price, img} = props
+const EachProduct = (products) => {
+    const {id, category, name, price, img} = products
   return (
     <Link to={`/catalogo/${id}`}>
         <section className={styles.eachProductList}>

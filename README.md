@@ -1,7 +1,8 @@
 
 # Evren Online Store
 ![Logo](https://i.imgur.com/NpklwHY.png?1)
- Evren is a local clothing shop who works directly throught social media without a personal website. This application includes all the basic features of a functional store.
+
+Evren is a local clothing shop who works directly throught social media without a personal website. This application includes all the basic features of a functional store.
 
 
 

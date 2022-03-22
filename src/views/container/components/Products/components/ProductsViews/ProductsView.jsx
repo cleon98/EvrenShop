@@ -3,8 +3,7 @@ import React from 'react'
 import { Link, useParams } from "react-router-dom";
 import styles from './styles.module.css'
 
-const ProductsView = ({products, addToCart}) => {
-
+const ProductsView = ({products, addToCart}) => { 
     const {id} = useParams();
     const product = products.find(product => product.id ==  id);
 

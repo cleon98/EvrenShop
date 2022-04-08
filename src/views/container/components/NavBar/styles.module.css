@@ -162,4 +162,7 @@ nav ul li a:hover{
         left: 0;;
 
     }
+    .navCart{
+        margin: 14px 15px 13px 0;
+    }
 }
